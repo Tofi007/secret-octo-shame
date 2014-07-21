@@ -4,6 +4,13 @@
 TagManager:
   tags:
   - Wall
+  - Ball
+  - Obstacle
+  - LowerWall
+  - PlusScore
+  - NegScore
+  - 
+  - 
   - 
   Builtin Layer 0: Default
   Builtin Layer 1: TransparentFX
@@ -13,11 +20,11 @@ TagManager:
   Builtin Layer 5: 
   Builtin Layer 6: 
   Builtin Layer 7: 
-  User Layer 8: 
-  User Layer 9: 
-  User Layer 10: 
-  User Layer 11: 
-  User Layer 12: 
+  User Layer 8: UpperWall
+  User Layer 9: LowerWall
+  User Layer 10: Ball
+  User Layer 11: Obstacle
+  User Layer 12: Score
   User Layer 13: 
   User Layer 14: 
   User Layer 15: 

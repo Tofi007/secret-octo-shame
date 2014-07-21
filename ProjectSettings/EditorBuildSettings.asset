@@ -9,3 +9,5 @@ EditorBuildSettings:
     path: Assets/Scenes/NoWind.unity
   - enabled: 1
     path: Assets/Scenes/Wind.unity
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity

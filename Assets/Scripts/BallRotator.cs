@@ -3,20 +3,18 @@ using System.Collections;
 
 public class BallRotator : MonoBehaviour {
 
-    public float minForce = -30f;
-    public float maxForce = 30f;
-
-    public float deltaTime = 1f;
+    private float xRotation = 0f;
+    private float yRotation = 0f;
+    private float zRotation = 0f;
 
 	// Update is called once per frame
-	void Start () {
-        RotateBall();
-	}
-
-    void RotateBall() {
-        gameObject.rigidbody.AddTorque(Vector3.up * Random.Range(minForce, maxForce));
-        gameObject.rigidbody.AddTorque(Vector3.forward * Random.Range(minForce, maxForce));
-        gameObject.rigidbody.AddTorque(Vector3.right * Random.Range(minForce, maxForce));
-        Invoke("RotateBall", deltaTime);
+	void Update()
+    {
+        xRotation += Random.Range(-1f, 1f) * Time.deltaTime;
+        yRotation += Random.Range(-1f, 1f) * Time.deltaTime;
+        zRotation += Random.Range(-1f, 1f) * Time.deltaTime;
+        this.gameObject.transform.RotateAround(this.gameObject.transform.position, Vector3.right, xRotation);
+        this.gameObject.transform.RotateAround(this.gameObject.transform.position, Vector3.up, yRotation);
+        this.gameObject.transform.RotateAround(this.gameObject.transform.position, Vector3.forward, zRotation);
     }
 }

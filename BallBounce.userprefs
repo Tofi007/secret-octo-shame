@@ -1,14 +1,31 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\LightDimmer.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Scripts\ScoreLabelController.cs">
     <Files>
-      <File FileName="Assets\Scripts\RandomSpawner.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\GameHandler.cs" Line="39" Column="6" />
       <File FileName="Assets\Scripts\ArrowRotator.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\GameHandler.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\BallController.cs" Line="1" Column="1" />
       <File FileName="Assets\Scripts\BallRotator.cs" Line="1" Column="1" />
-      <File FileName="Assets\Scripts\LightDimmer.cs" Line="12" Column="1" />
+      <File FileName="Assets\Scripts\LightDimmer.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\BoxController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\RandomCubeSpawner.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ScoreController.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\SkyBoxRotator.cs" Line="1" Column="1" />
+      <File FileName="Assets\Scripts\ScoreLabelController.cs" Line="33" Column="27" />
+      <File FileName="Assets\Scripts\SceneChangeButton.cs" Line="4" Column="47" />
+      <File FileName="Assets\Scripts\ExitButton.cs" Line="9" Column="6" />
     </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State expanded="True">
+          <Node name="Assembly-CSharp" expanded="True">
+            <Node name="Scripts" expanded="True">
+              <Node name="ScoreLabelController.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
