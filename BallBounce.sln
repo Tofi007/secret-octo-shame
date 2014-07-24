@@ -5,7 +5,7 @@ Project("{894E3668-A1B7-888E-1B4D-98D6CE343659}") = "BallBounce", "Assembly-CSha
 EndProject
 Project("{894E3668-A1B7-888E-1B4D-98D6CE343659}") = "BallBounce", "Assembly-CSharp-Editor.csproj", "{14DD3A53-1D63-416C-9E76-EE5C6CE0706D}"
 EndProject
-Project("{894E3668-A1B7-888E-1B4D-98D6CE343659}") = "BallBounce", "Assembly-UnityScript-firstpass.unityproj", "{E3B2B5AA-AF09-FA74-1AF7-A3B8FC02CF22}"
+Project("{894E3668-A1B7-888E-1B4D-98D6CE343659}") = "BallBounce", "Assembly-UnityScript.unityproj", "{B36D0BD8-D0CE-E6E7-BE9D-AA53AEA4687C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,15 +21,15 @@ Global
 		{14DD3A53-1D63-416C-9E76-EE5C6CE0706D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{14DD3A53-1D63-416C-9E76-EE5C6CE0706D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{14DD3A53-1D63-416C-9E76-EE5C6CE0706D}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E3B2B5AA-AF09-FA74-1AF7-A3B8FC02CF22}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E3B2B5AA-AF09-FA74-1AF7-A3B8FC02CF22}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E3B2B5AA-AF09-FA74-1AF7-A3B8FC02CF22}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E3B2B5AA-AF09-FA74-1AF7-A3B8FC02CF22}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B36D0BD8-D0CE-E6E7-BE9D-AA53AEA4687C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B36D0BD8-D0CE-E6E7-BE9D-AA53AEA4687C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B36D0BD8-D0CE-E6E7-BE9D-AA53AEA4687C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B36D0BD8-D0CE-E6E7-BE9D-AA53AEA4687C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																																												GlobalSection(MonoDevelopProperties) = preSolution
+																																																																													GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
